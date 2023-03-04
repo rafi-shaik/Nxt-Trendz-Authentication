@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.login-image {
+  width: 40%;
+}
+
+.form-container {
+  width: 23%;
+  height: 45vh;
+  border-radius: 7px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.input-label {
+  color: #475569;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-element {
+  background-color: #e2e8f0;
+  padding: 12px;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 75%;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.error-msg {
+  text-align: left;
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
